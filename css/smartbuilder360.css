@@ -6060,6 +6060,10 @@ figure {
   font-size: 1.8rem;
 }
 
+.heading-5.starter {
+  color: #0000;
+}
+
 .heading-price {
   font-family: Kanit, sans-serif;
   font-size: var(--_typography---font-size--h3);
@@ -8983,7 +8987,7 @@ figure {
   font-size: 2.5rem;
   font-weight: var(--_typography---font--primary-medium);
   margin-top: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 1.5rem;
 }
 
 .plan-type.light {
@@ -8991,6 +8995,11 @@ figure {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 2.5rem;
+}
+
+.plan-type.monthly {
+  margin-top: -23px;
+  margin-bottom: 2rem;
 }
 
 .paragraph-371 {
