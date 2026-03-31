@@ -8606,7 +8606,10 @@ figure {
 }
 
 .blog-post-sec {
+  max-width: 940px;
   margin-top: 8rem;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 4rem;
 }
 
