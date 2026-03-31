@@ -8200,7 +8200,7 @@ figure {
 .blog-heading {
   color: var(--swatch--brand-600);
   font-family: Kanit, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: var(--_typography---line-height--huge);
   margin-top: 10px;
   margin-bottom: 1rem;
@@ -8210,7 +8210,7 @@ figure {
 .blog-info {
   flex-flow: row;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   width: 100%;
   height: 5rem;
   margin-top: .8rem;
@@ -8246,7 +8246,7 @@ figure {
 .blog-date-div {
   justify-content: center;
   align-items: flex-end;
-  height: 100%;
+  height: auto;
   padding-bottom: .3rem;
   display: flex;
 }
@@ -8353,9 +8353,9 @@ figure {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   flex-flow: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-start;
-  height: 3rem;
+  height: auto;
   display: flex;
 }
 
@@ -8559,7 +8559,7 @@ figure {
 .blog-author-info {
   flex-flow: row;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   width: 100%;
   height: 5rem;
   margin-top: .8rem;
@@ -10315,13 +10315,17 @@ figure {
 
   .heading-8 {
     margin-bottom: 2rem;
-    font-size: 2.89rem;
+    font-size: 2.3rem;
     line-height: 1;
   }
 
   .subheading {
     width: 100%;
     font-size: 1.1rem;
+  }
+
+  .subheading.faq-p {
+    width: 90%;
   }
 
   .subheading.faq-p.mob {
@@ -10844,6 +10848,10 @@ figure {
     padding-bottom: 1rem;
   }
 
+  .blog-paragraph {
+    margin-bottom: .5rem;
+  }
+
   .lightbox-link {
     height: auto;
   }
@@ -11128,7 +11136,7 @@ figure {
   }
 
   .blog-date-div {
-    width: 100%;
+    width: auto;
   }
 
   .blog-img {
@@ -11137,13 +11145,13 @@ figure {
 
   .blog-img._04-10-25 {
     background-image: url('../images/360-parterhsip-imge_1360-parterhsip-imge.avif');
-    background-position: 0 0;
+    background-position: 41%;
     background-size: cover;
   }
 
   .blog-img._24-09-25 {
     background-image: url('../images/Breaking-the-5–10-Project-Ceiling--A-Practical-Guide-for-Contractors_1Breaking the 5–10 Project Ceiling- A Practical Guide for Contractors.avif');
-    background-position: 0 0;
+    background-position: 50%;
     background-size: cover;
   }
 
@@ -11153,8 +11161,32 @@ figure {
     background-size: cover;
   }
 
-  .blog-img._24-10-25, .blog-img._23-02-26, .blog-img._11-11-25, .blog-img._07-03-26, .blog-img._15-03-26 {
+  .blog-img._24-10-25 {
     background-image: url('../images/Scaling-smart.jpg');
+    background-position: 0 0;
+    background-size: cover;
+  }
+
+  .blog-img._23-02-26 {
+    background-image: url('../images/blog-5_1blog-5.avif');
+    background-position: 0 0;
+    background-size: cover;
+  }
+
+  .blog-img._11-11-25 {
+    background-image: url('../images/builder-rev_1builder-rev.avif');
+    background-position: 0 0;
+    background-size: cover;
+  }
+
+  .blog-img._07-03-26 {
+    background-image: url('../images/how-to-manage-change-orders-in-construction-with-a-7-step-process.avif');
+    background-position: 100% 0;
+    background-size: cover;
+  }
+
+  .blog-img._15-03-26 {
+    background-image: url('../images/What-is-a-bank-draw-form-in-construction-showing-contractor-payment-request-breakdown.avif');
     background-position: 0 0;
     background-size: cover;
   }
@@ -11173,6 +11205,7 @@ figure {
   .author-name-title {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    flex-flow: column;
     justify-content: center;
     align-items: flex-start;
     padding-left: .5rem;
@@ -11194,7 +11227,7 @@ figure {
   }
 
   .blog-grid-box {
-    height: 66vh;
+    height: auto;
     padding-bottom: 1rem;
   }
 
@@ -11231,9 +11264,9 @@ figure {
   }
 
   .blog-author-info {
-    flex-flow: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
     height: auto;
     padding-left: .5rem;
     padding-right: .5rem;
@@ -11451,7 +11484,7 @@ figure {
   grid-area: 2 / 2 / 3 / 5;
 }
 
-#w-node-_92fa9dbb-af7d-f76e-7c0f-2dec4b5998d2-9437c57c, #w-node-_2d3ab003-57d9-4810-5f4e-5dead19643e9-9437c57c, #w-node-d4c3d671-6d7b-85ee-623b-c83062a283fb-9437c57c, #w-node-faff698f-6254-394a-6c72-2c4d38452a8d-9437c57c, #w-node-_29f9f762-6ebc-5ecf-1351-05e3a58b6136-9437c57c, #w-node-abc71f8f-33ff-7a61-375f-edf6287b99cb-9437c57c, #w-node-_24abba70-72ac-6c8a-c2f7-b2c57db2b30a-9437c57c, #w-node-_0bcce0b0-9e63-16ab-335a-cc57d5059da1-9437c57c {
+#w-node-_92fa9dbb-af7d-f76e-7c0f-2dec4b5998d2-9437c57c, #w-node-_2d3ab003-57d9-4810-5f4e-5dead19643e9-9437c57c, #w-node-d4c3d671-6d7b-85ee-623b-c83062a283fb-9437c57c, #w-node-faff698f-6254-394a-6c72-2c4d38452a8d-9437c57c, #w-node-abc71f8f-33ff-7a61-375f-edf6287b99cb-9437c57c, #w-node-_29f9f762-6ebc-5ecf-1351-05e3a58b6136-9437c57c, #w-node-_24abba70-72ac-6c8a-c2f7-b2c57db2b30a-9437c57c, #w-node-_0bcce0b0-9e63-16ab-335a-cc57d5059da1-9437c57c {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
