@@ -10084,7 +10084,7 @@ figure {
     justify-content: center;
     align-items: center;
     width: 100%;
-    display: none;
+    display: flex;
   }
 
   .card-body {
@@ -10148,6 +10148,11 @@ figure {
 
   .nav-menu-list {
     border-bottom-style: none;
+    padding-bottom: 0;
+  }
+
+  .nav-menu-list.last {
+    padding-bottom: .25rem;
   }
 
   .body {
