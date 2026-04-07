@@ -10083,9 +10083,9 @@ figure {
   }
 
   .nav-right {
-    grid-column-gap: .3rem;
-    grid-row-gap: .3rem;
-    justify-content: space-between;
+    grid-column-gap: .5rem;
+    grid-row-gap: .5rem;
+    justify-content: center;
     align-items: center;
     width: 100%;
     display: flex;
