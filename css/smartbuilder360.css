@@ -9819,6 +9819,10 @@ figure {
     margin-top: 14%;
   }
 
+  .svg {
+    color: #000;
+  }
+
   .benefit-div {
     flex-flow: column;
   }
@@ -10081,7 +10085,7 @@ figure {
   .nav-right {
     grid-column-gap: .3rem;
     grid-row-gap: .3rem;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     display: flex;
@@ -10100,6 +10104,10 @@ figure {
     justify-content: flex-start;
     align-items: stretch;
     width: 100%;
+  }
+
+  .button-group.utility-margin-top-0 {
+    width: auto;
   }
 
   .image-2 {
@@ -10177,6 +10185,7 @@ figure {
 
   .secondary-button {
     white-space: nowrap;
+    margin-left: 0;
     padding-left: 1.6rem;
     padding-right: 1.6rem;
   }
