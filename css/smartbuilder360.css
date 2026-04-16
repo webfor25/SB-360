@@ -8244,7 +8244,7 @@ figure {
   align-items: flex-end;
   height: auto;
   padding-bottom: .3rem;
-  display: flex;
+  display: none;
 }
 
 .blog-img {
@@ -8320,6 +8320,15 @@ figure {
 
 .blog-img._15-03-26 {
   background-image: url('../images/What-is-a-bank-draw-form-in-construction-showing-contractor-payment-request-breakdown.avif');
+  background-position: 50% 80%;
+  background-size: cover;
+  border-radius: 20px;
+  width: 100%;
+  height: 20rem;
+}
+
+.blog-img._22-03-26 {
+  background-image: url('../images/Contractor-reviewing-a-construction-proposal.avif');
   background-position: 50% 80%;
   background-size: cover;
   border-radius: 20px;
@@ -8489,9 +8498,18 @@ figure {
   position: relative;
 }
 
-.header-image.blog-8, .header-image.blog-9 {
+.header-image.blog-8 {
   background-color: #00000080;
   background-image: linear-gradient(#0009, #fff0), url('../images/What-is-a-bank-draw-form-in-construction-showing-contractor-payment-request-breakdown.avif');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  height: 100%;
+  position: relative;
+}
+
+.header-image.blog-9 {
+  background-color: #00000080;
+  background-image: linear-gradient(#0009, #fff0), url('../images/Contractor-reviewing-a-construction-proposal.avif');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   height: 100%;
@@ -9101,6 +9119,16 @@ figure {
 
 .div-field {
   width: 100%;
+}
+
+.first-name, .last-name, .email-address, .phone-number, .business-name {
+  border-radius: 8px;
+}
+
+.message {
+  border-radius: 8px;
+  height: auto;
+  padding-bottom: 40px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -11243,7 +11271,7 @@ figure {
     background-size: cover;
   }
 
-  .blog-img._15-03-26 {
+  .blog-img._15-03-26, .blog-img._22-03-26 {
     background-image: url('../images/What-is-a-bank-draw-form-in-construction-showing-contractor-payment-request-breakdown.avif');
     background-position: 0 0;
     background-size: cover;
@@ -11568,7 +11596,7 @@ figure {
   grid-area: 2 / 2 / 3 / 5;
 }
 
-#w-node-_92fa9dbb-af7d-f76e-7c0f-2dec4b5998d2-9437c57c, #w-node-_2d3ab003-57d9-4810-5f4e-5dead19643e9-9437c57c, #w-node-d4c3d671-6d7b-85ee-623b-c83062a283fb-9437c57c, #w-node-faff698f-6254-394a-6c72-2c4d38452a8d-9437c57c, #w-node-abc71f8f-33ff-7a61-375f-edf6287b99cb-9437c57c, #w-node-_29f9f762-6ebc-5ecf-1351-05e3a58b6136-9437c57c, #w-node-_24abba70-72ac-6c8a-c2f7-b2c57db2b30a-9437c57c, #w-node-_0bcce0b0-9e63-16ab-335a-cc57d5059da1-9437c57c {
+#w-node-_92fa9dbb-af7d-f76e-7c0f-2dec4b5998d2-9437c57c, #w-node-_2d3ab003-57d9-4810-5f4e-5dead19643e9-9437c57c, #w-node-d4c3d671-6d7b-85ee-623b-c83062a283fb-9437c57c, #w-node-faff698f-6254-394a-6c72-2c4d38452a8d-9437c57c, #w-node-abc71f8f-33ff-7a61-375f-edf6287b99cb-9437c57c, #w-node-_29f9f762-6ebc-5ecf-1351-05e3a58b6136-9437c57c, #w-node-_24abba70-72ac-6c8a-c2f7-b2c57db2b30a-9437c57c, #w-node-_0bcce0b0-9e63-16ab-335a-cc57d5059da1-9437c57c, #w-node-_6c93eef1-0204-777f-402d-a01829c35683-9437c57c {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 

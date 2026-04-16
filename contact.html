@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Thu Apr 09 2026 10:44:57 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Thu Apr 16 2026 16:33:21 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="69b8415000a8ba8a9437c57a" data-wf-site="69b8415000a8ba8a9437c59c" lang="en-US">
 <head>
   <meta charset="utf-8">
@@ -126,12 +126,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="form-block-2 w-form">
           <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form-2" data-wf-page-id="69b8415000a8ba8a9437c57a" data-wf-element-id="ea7b0f21-8484-9ca2-4a18-f57077475e7f">
             <div class="first-lastname-wrap">
-              <div class="div-field"><label for="name" class="field-label">First Name  <span class="astric">*</span></label><input class="text-field-3 w-input" maxlength="256" name="name" data-name="Name" placeholder="" type="text" id="name" required=""></div>
-              <div class="div-field"><label for="name" class="field-label">Last name <span class="astric">*</span></label><input class="text-field-3 w-input" maxlength="256" name="name" data-name="Name" placeholder="" type="text" id="name" required=""></div>
+              <div class="div-field"><label for="First-name" class="field-label">First Name  <span class="astric">*</span></label><input class="first-name w-input" maxlength="256" name="First-name" data-name="First name" placeholder="" type="text" id="First-name" required=""></div>
+              <div class="div-field"><label for="Last-name" class="field-label">Last name <span class="astric">*</span></label><input class="last-name w-input" maxlength="256" name="Last-name" data-name="Last name" placeholder="" type="text" id="Last-name" required=""></div>
             </div>
-            <div class="div-field"><label for="email" class="field-label">Email Address <span class="astric">*</span></label><input class="text-field-2 w-input" maxlength="256" name="email" data-name="Email" placeholder="" type="email" id="email" required=""></div>
-            <div class="div-field"><label for="email" class="field-label">Phone Number <span class="astric">*</span></label><input class="text-field-2 w-input" maxlength="256" name="email" data-name="Email" placeholder="" type="tel" id="email" required=""></div>
-            <div class="div-field"><label for="email" class="field-label">Business Name <span class="astric">*</span></label><input class="text-field-2 w-input" maxlength="256" name="email" data-name="Email" placeholder="" type="text" id="email" required=""></div><textarea id="Message" name="Message" maxlength="5000" data-name="Message" placeholder="Leave your Message Here" required="" class="textarea w-input"></textarea><label class="w-checkbox checkbox-field"><input type="checkbox" name="checkbox" id="checkbox" data-name="Checkbox" required="" class="w-checkbox-input checkbox"><span class="checkbox-label w-form-label" for="checkbox">I agree to receive communication from <strong>Smart Buidlers 360</strong> related to my message.</span></label><input type="submit" data-wait="Please wait..." class="button-main primary-button-on-inverse w-button" value="Submit">
+            <div class="div-field"><label for="email" class="field-label">Email Address <span class="astric">*</span></label><input class="email-address w-input" maxlength="256" name="email" data-name="Email" placeholder="" type="email" id="email" required=""></div>
+            <div class="div-field"><label for="Phone" class="field-label">Phone Number <span class="astric">*</span></label><input class="phone-number w-input" maxlength="256" name="Phone" data-name="Phone" placeholder="" type="tel" id="Phone" required=""></div>
+            <div class="div-field"><label for="Business-Name" class="field-label">Business Name <span class="astric">*</span></label><input class="business-name w-input" maxlength="256" name="Business-Name" data-name="Business Name" placeholder="" type="text" id="Business-Name" required=""></div><textarea id="Message" name="Message" maxlength="5000" data-name="Message" placeholder="Leave your Message Here" class="message w-input"></textarea><label class="w-checkbox checkbox-field"><input type="checkbox" name="checkbox" id="checkbox" data-name="Checkbox" required="" class="w-checkbox-input checkbox"><span class="checkbox-label w-form-label" for="checkbox">I agree to receive communication from <strong>Smart Buidlers 360</strong> related to my message.</span></label><input type="submit" data-wait="Please wait..." class="button-main primary-button-on-inverse w-button" value="Submit">
           </form>
           <div class="success-message w-form-done">
             <div>Thank you! Your submission has been received!</div>
@@ -140,6 +140,135 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div>Oops! Something went wrong while submitting the form.</div>
           </div>
         </div>
+      </div>
+      <div class="w-embed w-script">
+        <style>
+.form-wrapper {
+  border: 2px solid #2f66b3;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 800px;
+  background: #f8f9fb;
+  font-family: Arial, sans-serif;
+}
+.form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.form-group.full {
+  width: 100%;
+}
+label {
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #2c2c2c;
+}
+label span {
+  color: #2f66b3;
+}
+input, textarea {
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+}
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 20px 0;
+  font-size: 14px;
+}
+button {
+  background: linear-gradient(135deg, #2f66b3, #4a8be0);
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:disabled {
+  opacity: 0.6;
+}
+#successMessage {
+  display: none;
+  margin-top: 20px;
+  color: green;
+  font-weight: 600;
+}
+</style>
+        <div class="form-wrapper">
+          <form id="customForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label>First Name <span>*</span></label>
+                <input type="text" name="first_name" required="">
+              </div>
+              <div class="form-group">
+                <label>Last name <span>*</span></label>
+                <input type="text" name="last_name" required="">
+              </div>
+            </div>
+            <div class="form-group full">
+              <label>Email Address <span>*</span></label>
+              <input type="email" name="email" required="">
+            </div>
+            <div class="form-group full">
+              <label>Phone Number <span>*</span></label>
+              <input type="text" name="phone" required="">
+            </div>
+            <div class="form-group full">
+              <label>Business Name <span>*</span></label>
+              <input type="text" name="business" required="">
+            </div>
+            <div class="form-group full">
+              <textarea name="message" placeholder="Leave your Message Here"></textarea>
+            </div>
+            <div class="checkbox-row">
+              <input type="checkbox" name="consent" required="">
+              <div>
+                I agree to receive communication from <strong>Smart Builders 360</strong> related to my message.
+              </div>
+            </div>
+            <button id="submitBtn" type="submit">Submit</button>
+          </form>
+          <div id="successMessage">
+            Thanks! Your submission has been received.
+          </div>
+        </div>
+        <script>
+const form = document.getElementById("customForm");
+const btn = document.getElementById("submitBtn");
+form.addEventListener("submit", async function(e) {
+  e.preventDefault();
+  btn.innerText = "Sending...";
+  btn.disabled = true;
+  const formData = new FormData(form);
+  try {
+    await fetch("https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjcwNTZmMDYzZTA0M2M1MjZjNTUzMjUxMzUi_pc", {
+      method: "POST",
+      body: formData
+    });
+    form.style.display = "none";
+    document.getElementById("successMessage").style.display = "block";
+  } catch (error) {
+    btn.innerText = "Submit";
+    btn.disabled = false;
+  }
+});
+</script>
       </div>
     </section>
   </div>
