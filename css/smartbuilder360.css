@@ -7349,10 +7349,10 @@ figure {
 }
 
 .features-grid {
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
   grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
 }
@@ -8195,12 +8195,12 @@ figure {
 
 .blog-heading {
   color: var(--swatch--brand-600);
-  font-family: Kanit, sans-serif;
-  font-size: 1.2rem;
-  line-height: var(--_typography---line-height--huge);
   margin-top: 10px;
   margin-bottom: 1rem;
-  font-weight: 500;
+  font-family: Kanit, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.4;
 }
 
 .blog-info {
@@ -8220,9 +8220,7 @@ figure {
   justify-content: flex-start;
   align-items: flex-start;
   height: auto;
-  padding-bottom: 0;
-  padding-left: 1rem;
-  padding-right: .81rem;
+  padding: .5rem .81rem 0 1rem;
   display: flex;
 }
 
@@ -8237,6 +8235,13 @@ figure {
 
 .author-img-div.kurt {
   background-image: url('../images/kurt-c_1kurt-c.avif');
+  width: 4rem;
+  height: 4rem;
+}
+
+.author-img-div.dave {
+  width: 4rem;
+  height: 4rem;
 }
 
 .blog-date-div {
@@ -8336,6 +8341,15 @@ figure {
   height: 20rem;
 }
 
+.blog-img._12-04-26 {
+  background-image: url('../images/Construction-worker-in-orange-hard-hat-measuring-materials-on-site.avif');
+  background-position: 50% 80%;
+  background-size: cover;
+  border-radius: 20px;
+  width: 100%;
+  height: 20rem;
+}
+
 .text-block-10 {
   color: var(--_theme---text-link--border);
   font-size: var(--_typography---font-size--text-small);
@@ -8391,12 +8405,13 @@ figure {
   border: 1px solid #0000001a;
   border-radius: 20px;
   flex-flow: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 38rem;
-  padding-bottom: 0;
+  height: 42rem;
+  padding-top: 0;
+  padding-bottom: 2rem;
   padding-left: 0;
-  display: block;
+  display: flex;
   box-shadow: 0 2px 9px -3px #0000001a;
 }
 
@@ -8510,6 +8525,15 @@ figure {
 .header-image.blog-9 {
   background-color: #00000080;
   background-image: linear-gradient(#0009, #fff0), url('../images/Contractor-reviewing-a-construction-proposal.avif');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  height: 100%;
+  position: relative;
+}
+
+.header-image.blog-11 {
+  background-color: #00000080;
+  background-image: linear-gradient(#0009, #fff0), url('../images/Construction-worker-in-orange-hard-hat-measuring-materials-on-site.avif');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   height: 100%;
@@ -9554,7 +9578,7 @@ figure {
     height: 100%;
   }
 
-  .header-image.blog-1, .header-image.blog-2, .header-image.blog-5, .header-image.blog-3, .header-image.blog-4, .header-image.blog-6, .header-image.blog-7, .header-image.blog-8, .header-image.blog-9 {
+  .header-image.blog-1, .header-image.blog-2, .header-image.blog-5, .header-image.blog-3, .header-image.blog-4, .header-image.blog-6, .header-image.blog-7, .header-image.blog-8, .header-image.blog-9, .header-image.blog-11 {
     background-color: #0000;
     background-image: linear-gradient(#000000b5 21%, #fff0 85%), url('../images/Blog-1.webp');
     background-position: 0 0, 50%;
@@ -11277,6 +11301,12 @@ figure {
     background-size: cover;
   }
 
+  .blog-img._12-04-26 {
+    background-image: url('../images/Construction-worker-in-orange-hard-hat-measuring-materials-on-site.avif');
+    background-position: 50%;
+    background-size: cover;
+  }
+
   .text-block-10 {
     font-size: .8rem;
   }
@@ -11596,7 +11626,7 @@ figure {
   grid-area: 2 / 2 / 3 / 5;
 }
 
-#w-node-_92fa9dbb-af7d-f76e-7c0f-2dec4b5998d2-9437c57c, #w-node-_2d3ab003-57d9-4810-5f4e-5dead19643e9-9437c57c, #w-node-d4c3d671-6d7b-85ee-623b-c83062a283fb-9437c57c, #w-node-faff698f-6254-394a-6c72-2c4d38452a8d-9437c57c, #w-node-abc71f8f-33ff-7a61-375f-edf6287b99cb-9437c57c, #w-node-_29f9f762-6ebc-5ecf-1351-05e3a58b6136-9437c57c, #w-node-_24abba70-72ac-6c8a-c2f7-b2c57db2b30a-9437c57c, #w-node-_0bcce0b0-9e63-16ab-335a-cc57d5059da1-9437c57c, #w-node-_6c93eef1-0204-777f-402d-a01829c35683-9437c57c {
+#w-node-_92fa9dbb-af7d-f76e-7c0f-2dec4b5998d2-9437c57c, #w-node-_2d3ab003-57d9-4810-5f4e-5dead19643e9-9437c57c, #w-node-d4c3d671-6d7b-85ee-623b-c83062a283fb-9437c57c, #w-node-faff698f-6254-394a-6c72-2c4d38452a8d-9437c57c, #w-node-abc71f8f-33ff-7a61-375f-edf6287b99cb-9437c57c, #w-node-_29f9f762-6ebc-5ecf-1351-05e3a58b6136-9437c57c, #w-node-_24abba70-72ac-6c8a-c2f7-b2c57db2b30a-9437c57c, #w-node-_0bcce0b0-9e63-16ab-335a-cc57d5059da1-9437c57c, #w-node-_6c93eef1-0204-777f-402d-a01829c35683-9437c57c, #w-node-f6ecbb81-193e-f4ac-2afd-c1bf5bde28e7-9437c57c {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
