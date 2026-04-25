@@ -9265,6 +9265,10 @@ figure {
     grid-row-gap: 0rem;
   }
 
+  .header-image.blog-12 {
+    background-position: 0 0, 50% 10%;
+  }
+
   .blog-info-div, .blog-name-info {
     padding-left: 0;
   }
@@ -9586,7 +9590,7 @@ figure {
 
   .blog-header-div {
     background-color: #0000;
-    height: 21rem;
+    height: 26rem;
   }
 
   .header-image {
@@ -9596,10 +9600,18 @@ figure {
     height: 100%;
   }
 
-  .header-image.blog-1, .header-image.blog-2, .header-image.blog-5, .header-image.blog-3, .header-image.blog-4, .header-image.blog-6, .header-image.blog-7, .header-image.blog-8, .header-image.blog-9, .header-image.blog-11, .header-image.blog-12 {
+  .header-image.blog-1, .header-image.blog-2, .header-image.blog-5, .header-image.blog-3, .header-image.blog-4, .header-image.blog-6, .header-image.blog-7, .header-image.blog-8, .header-image.blog-9, .header-image.blog-11 {
     background-color: #0000;
     background-image: linear-gradient(#000000b5 21%, #fff0 85%), url('../images/Blog-1.webp');
     background-position: 0 0, 50%;
+    background-size: auto, cover;
+    position: relative;
+  }
+
+  .header-image.blog-12 {
+    background-color: #0000;
+    background-image: linear-gradient(#000000b5 21%, #fff0 85%), url('../images/how-do-contractors-handle-client-material-selections-2.jpg');
+    background-position: 0 0, 50% 20%;
     background-size: auto, cover;
     position: relative;
   }
